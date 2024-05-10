@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construction Information Form</title>
+</head>
+<body>
+    <h2>Construction Information Form</h2>
+    <form action="submit_construction_info.php" method="POST">
+        <label for="project_name">Project Name:</label><br>
+        <input type="text" id="project_name" name="project_name" required><br><br>
+
+        <label for="location">Location:</label><br>
+        <input type="text" id="location" name="location" required><br><br>
+
+        <label for="start_date">Start Date:</label><br>
+        <input type="date" id="start_date" name="start_date" required><br><br>
+
+        <label for="completion_date">Completion Date:</label><br>
+        <input type="date" id="completion_date" name="completion_date" required><br><br>
+
+        <label for="contractor">Contractor:</label><br>
+        <input type="text" id="contractor" name="contractor" required><br><br>
+
+        <label for="budget">Budget:</label><br>
+        <input type="number" id="budget" name="budget" required><br><br>
+
+        <label for="description">Description:</label><br>
+        <textarea id="description" name="description" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
